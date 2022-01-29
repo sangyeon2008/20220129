@@ -1,0 +1,167 @@
+# 3,6,9 while 문
+
+
+# a=0
+# y=0
+# while y < 100:
+#     y=y+1
+#
+#     if y%10==3 and -1<y-30<10:
+#         print("**")
+#     elif y%10==6 and -1<y-60<10:
+#         print("**")
+#     elif y%10==9 and -1<y-90<10 :
+#         print("**")
+#     elif y % 10 == 3 and -1 < y - 30 < 10:
+#         print("**")
+#     elif y % 10 == 6 and -1 < y - 30 < 10:
+#         print("**")
+#     elif y % 10 == 6 and -1 < y - 30 < 10:
+#         print("**")
+#     elif y % 10 == 3 and -1 < y - 90 < 10:
+#         print("**")
+#     elif y % 10 == 3 and -1 < y - 60 < 10:
+#         print("**")
+#     elif y % 10 == 6 and -1 < y - 90 < 10:
+#         print("**")
+#     elif y % 10 == 6 and -1 < y - 60 < 10:
+#         print("**")
+#     elif y % 10 == 9 and -1 < y - 90 < 10:
+#         print("**")
+#     elif y % 10 == 9 and -1 < y - 60 < 10:
+#         print("**")
+#     elif y%10==3:
+#         print("*")
+#     elif y%10==6:
+#         print("*")
+#     elif y%10==9:
+#         print("*")
+#     elif -1<y-30<10:
+#         print("*")
+#     elif -1<y-60<10:
+#         print("*")
+#     elif -1<y-90<10:
+#         print("*")
+#
+#     else:
+#         print(a + y)
+#
+# 리스트
+# 수, 문자열을 배우면서 여러 데이터 값 처리를 해 볼 수 있다. 그렇지만 몇개가 아닌 많은 수의 데이터를 처리해야 할 때가 있다. 이를 해결하기 위해 리스트라 는 것이
+# 존재한다.
+# 리스트는 복수의 유사한 데이터 값의 집단 또는 묶음을
+#  의미한다:
+#     리스트를 구성하는 각각의 데이터를 원소라고 존재한다.
+
+# a= [1,2,3,4]
+# print (a[2])
+
+# a=[1,2,4]
+# print (a[0] + a[2])
+# print(a[-2])
+
+
+# a=[1,2,3,4,['a','b''c']]
+# print(a[3])
+# print(a[3][0])
+# print(a[-1][0])
+# #
+# # a= [1,2, ['a', 'b', ['life', 'is']]]
+#
+# # 특징
+# # 수정, 삭제 추가가 가능한다.
+#
+#
+# 리스트 슬라이싱
+# a= [1,2,3,4,5]
+# print(a[0:2])
+# b= a[:2]
+# print(b)
+# c= a[2:]
+# print(c)
+# a=[1,2,3,['a','b''c'],4,5]
+# print(a[2:5])
+# print(a[3][:2])
+
+# a=[1,2,3]
+# b=[4,5,6]
+# print(a+b)
+# print(a*3)
+# print(len(a))
+
+# 리스트의 수정
+# a= [1,2,3]
+# # print(a)
+# # a[2]= 4
+# # print(a)
+# del a[1:]
+# print(a)
+# #추가
+# a= [1,2,3]
+# a.append(5)
+# print(a)
+#
+# a=[1,4,3,2]
+# print(a)
+# a.sort()
+# print(a)
+#
+# a=['a','c','b']
+# print(a)
+# a.reverse()
+# print(a)
+# a=[1,4,3,2]
+# print(a)
+# a.sort(reverse=True)
+# print(a)
+# a.sort(reverse=False)
+# print(a)
+
+# a=[1,2,3,4]
+# a.index(0)#리스트 안에 없어서 애러
+# print(a)
+
+# a= [1,2,3]
+# a.insert(0,4)
+# print(a)
+# a.insert(1,7)
+# print(a)
+
+# a=[1,2,3,1,2,3]
+# a.remove(3)
+# print(a)
+# a.remove(3)
+# print(a)
+#
+# a=[1,2,3]
+# a.remove(2)
+# print(a)
+
+# a=[4,5,6]
+# a.pop(2)
+# print(a)
+# a.pop(0)
+# print(a)
+#
+# a=[1,2,3,1]
+# print(a.count(1))
+# print(a.count(0))
+# print(a.count(2))
+
+# extend 확장하고 싶을때
+# a=[1,2,3]
+# print(a)
+# a.extend([4,5])
+# print(a)
+
+a=['범죄도시','부산행','신세계']
+print(a)
+a.append("스파이더맨 노웨이홈")
+print(a)
+a.remove('스파이더맨 노웨이홈')
+print(a)
+
+
+Data=[2,4,3,1,5,10,9]
+Data.sort()
+print(Data)
